@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Lobster&family=Nuosu+SIL&family=Roboto+Condensed:wght@300&family=Roboto:wght@100&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    max-width: 1000vh;
+}
+.front{
+    display: inline-block;
+    margin-top: 15vh;
+    margin-left: 10vh;
+    width: 50vh;
+    height: 15vh;
+}
+.write{
+    color: gray;
+    font-family: 'Nuosu SIL', serif;
+    margin-top: 4vh;
+    display: inline-block;
+    width: 95vh;
+    height:5vh;
+    margin-right: 0;
+}
+.input{
+    margin-top: 8vh;
+    display: flex;
+    width: 125vh;
+    position: relative;
+}
+
+.input  button{
+    position: absolute;
+    padding-bottom: 2vh;
+    padding-right: 2vh;
+    margin-bottom:3vh;
+    margin-top: 1vh;
+    margin-left: 72vh;
+    background-color: white;
+    border-color: white;
+    border: none;
+}
+.input button img{
+    margin-top:2vh ;
+}
+.input button:hover{
+    background-color: rgb(240, 235, 235);
+    
+}
+.input button a{
+    color: rgb(134, 129, 129);
+    font-family: 'Nuosu SIL', serif;
+    text-decoration:solid ;
+}
+.input input {
+    border-width: 1px;
+    border-color: orange;
+    width:86vh;
+    padding: 3vh;
+}
+ .input1{
+   display: inline-block;
+}
+
+.input1 input{
+
+    color: white;
+    background-color: orange;
+    border-color: orange;
+    width: 23vh;
+    padding: 4vh 0vh;
+}
+h4{
+    margin-top: 4vh;
+    color:gray;
+}
+
+.login{
+    height: 10vh;
+    display: inline-block;
+    margin-top: 18vh;
+    margin-left: 36vh;
+}
+.login a{
+    
+    color: black;
+    text-decoration: solid;
+}
+.btn{
+    display: inline-block;
+    height: 13vh;
+    margin-top: 16vh;
+    margin-left: 3vh;
+}
+.btn input{
+       color: white;
+       background-color: black;
+       padding: 2vh 6vh;
+}
+.img{
+    display: inline-block;
+    margin-left: 4vh;
+}
+.cities ul{
+    margin: 2vh 0vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;   
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    font-family: 'Nuosu SIL', serif;
+    color: grey;
+    text-decoration: solid;
+}
+.cities ul li{
+    list-style: none;
+    margin-left: 2vh;
+}
+.cities ul li a{ 
+    font-family: 'Nuosu SIL', serif;
+    color: gray;
+    text-decoration: solid;
+}
+.cities ul li a p{
+    color: black;
+}
+.main2{
+    display: flex;
+
+}
+.login a:hover{
+    color: orange;
+    font-weight: bolder;
+}
+.phone{
+    margin-top: 20vh;
+    margin-left: 10vh;
+}
+.phone h3{
+    font-family: 'Nuosu SIL', serif;
+    color: gray;
+    margin-top: 2vh;
+}
+.phone a img{
+    margin-top: 10vh;
+}
+.imgg{
+    margin-left: 20vh;
+}
+footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 23vh;
+}
